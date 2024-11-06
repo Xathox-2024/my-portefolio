@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #000000;
+    color: #ff8c00;
+    font-weight: bold;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    gap: 2em; 
+}
+
+.navbar a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00ef1474;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90em;
+    margin: auto;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article h2:hover {
+    color: rgb(6, 168, 0);
+}
+
+article {
+    flex: calc(100% - 30px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article1 {
+    flex: calc(40% - 30px);
+}
+
+.article2 {
+    text-align: left;
+}
+
+.article3 {
+    text-align: center;
+}
+
+.article4 {
+    max-height: 130em;
+}
+
+.article5 {
+    max-height: 12em;
+}
+
+.article6 {
+    margin-top: -13.5em; 
+}
+
+.img1 {
+    max-height: 15em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img2 {
+    max-height: 5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 14em;
+}
+
+.img3 {
+    max-height: 6em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 14em;
+}
+
+.img4 {
+    max-height: 6em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img5 {
+    max-height: 6em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img6 {
+    max-height: 8em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img7 {
+    max-height: 7em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img8 {
+    max-height: 13em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img9 {
+    max-height: 30em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1em;
+}
+
+.img10 {
+    max-height: 35em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 3em;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.face, .insta, .twitter {
+    filter: invert(1);
+}
+
+.logfoot {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-right: 15px;
+}

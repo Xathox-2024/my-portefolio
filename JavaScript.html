@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        
+        <link rel="stylesheet" href="css/js.css">
+    </head>
+<body>
+
+    
+    <nav class="navbar">
+        <div class="logo">Mon Portfolio</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#propos">À propos</a></li>
+            <li><a href="manga.html">Mes Mangas</a></li>
+            <li><a href="index.html#pok">Compétences</a></li>
+            <li><a href="index.html#contact">Contact</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+        <article class="arc1 article1 article2">
+            <h2>Qu’est-ce que JavaScript ?</h2>
+            <p>JavaScript est un langage de programmation qui permet d’ajouter de l’interactivité à une page web. Quand tu ouvres une page web 
+                et que tu vois des choses qui bougent, des éléments qui changent de couleur, des messages d’alerte, ou des formulaires qui vérifient 
+                les erreurs automatiquement, tout cela est fait avec JavaScript.</p>
+                <p>Contrairement à HTML et CSS, qui sont statiques, JavaScript permet d'ajouter de la logique et des réactions aux actions de l'utilisateur. Par exemple :</p>
+                <p>Cliquer sur un bouton pour ouvrir un menu ou afficher une info.</p>
+                <p>Changer la couleur d'un élément quand on passe la souris dessus.</p>
+                <p>Vérifier qu’un email est bien écrit dans un formulaire.</p>
+        </article>
+
+        <article class="article1 article2">
+            <h2>Commentaire ajouter JavaScript dans une page HTML</h2>
+            <p>Il y a trois manières principales pour ajouter JavaScript dans une page HTML :</p>
+            <p>Dans une balise <span style="color: red;">&lsaquo;script&rsaquo;</span> directement dans l’HTML : on écrit le code JavaScript 
+                dans une balise <span style="color: red;">&lsaquo;script&rsaquo;</span> entre le <span style="color: red;">&lsaquo;head&rsaquo;</span> 
+                et le <span style="color: red;">&lsaquo;body&rsaquo;</span>, ou en bas de la page juste avant la fermeture de <span style="color: red;">&lsaquo;/body&rsaquo;</span>.</p>
+            <img src="images/exemple13.png" alt="error" class="img1">
+            <p>En utilisant un fichier JavaScript externe : on écrit tout le code JavaScript dans un fichier à part, avec l'extension <span style="color: red;">.js</span>, 
+                puis on l’intègre dans la page HTML. Cela rend le code plus organisé et réutilisable.</p>
+            <img src="images/exemple14.png" alt="error" class="img2">
+            <p>Dans les attributs HTML : on peut écrire du code JavaScript directement dans certains éléments HTML en utilisant des attributs comme 
+                <span style="color: red;">onclick</span>, <span style="color: red;">onmouseover</span>, etc.</p>
+            <img src="images/exemple15.png" alt="error" class="img3">
+        </article>
+
+
+        <article class="arc2  article1 article2">
+            <h2>Les bases de JavaScript : les éléments essentiels</h2>
+            <p>Variables</p>
+            <p>Les variables sont des conteneurs où l’on peut stocker des informations, comme le nom 
+                d’un utilisateur ou l’âge d’un internaute. Ces informations peuvent ensuite être utilisées dans le code.</p>
+            <img src="images/exemple16.png" alt="error" class="img4">
+            <h2>Fonctions</h2>
+            <p>Les fonctions permettent d’exécuter un ensemble d’instructions. Par exemple, on peut définir une fonction pour afficher 
+                un message à l’utilisateur chaque fois qu’il clique sur un bouton.</p>
+            <img src="images/exemple17.png" alt="error" class="img5">
+            <p>On peut ensuite appeler cette fonction à chaque fois qu’on veut exécuter cette série d’instructions :</p>
+            <img src="images/exemple18.png" alt="error" class="img6">
+            <h2>Conditions</h2>
+            <p>Les conditions permettent d'exécuter des actions spécifiques en fonction de certaines situations. Par exemple, 
+                si l’utilisateur a plus de 18 ans, afficher un message de bienvenue pour adultes, sinon afficher un autre message.</p>
+            <img src="images/exemple19.png" alt="error" class="img7">
+            <h2>Boucles</h2>
+            <p>Les boucles permettent de répéter une action plusieurs fois sans avoir à réécrire le code. Cela est utile pour traiter des listes d'éléments, 
+                comme un tableau de noms ou d'articles.</p>
+            <img src="images/exemple20.png" alt="error" class="img8">
+            <p>Ce code va afficher 5 messages, en changeant le numéro à chaque fois.</p>
+            
+        </article>
+
+        <article class="article1 article2">
+            <h2>Interagir avec le HTML et le DOM</h2>
+            <p>Le DOM (Document Object Model) représente la structure HTML d’une page web comme un arbre d’éléments. 
+                Avec JavaScript, on peut sélectionner, modifier et manipuler ces éléments pour créer des pages interactives.</p>
+            <h2>Accéder aux éléments HTML</h2>
+            <p>Pour cibler des éléments dans la page, on utilise des méthodes comme :</p>
+            <p>document.getElementById("id") pour sélectionner un élément par son id.</p>
+            <p>document.getElementsByClassName("classe") pour sélectionner des éléments par leur classe.</p>
+            <p>document.querySelector("sélecteur") pour sélectionner le premier élément qui correspond à un sélecteur CSS.</p>
+            <p>Supposons qu’on ait un titre dans le HTML avec id="titre". On peut accéder à cet élément et changer son texte.</p>
+            <img src="images/exemple21.png" alt="error" class="img9">
+            <img src="images/exemple22.png" alt="error" class="img10">
+            <h2>Modifier les éléments HTML</h2>
+            <p>JavaScript permet de modifier les contenus, attributs et styles CSS des éléments.</p>
+            <p>Changer le texte : element.innerText ou element.innerHTML pour inclure des balises HTML.</p>
+            <p>Modifier des attributs : element.setAttribute("attribut", "valeur").</p>
+            <p>Changer les styles CSS : element.style.property (par exemple element.style.color = "blue";).</p>
+            <img src="images/exemple23.png" alt="error" class="img11">
+            <img src="images/exemple24.png" alt="error" class="img12">
+            <h2>Ajouter et supprimer des éléments</h2>
+            <p>JavaScript permet aussi d’ajouter ou de supprimer des éléments dans la page, ce qui est utile pour des contenus dynamiques comme des listes d’articles ou des commentaires.</p>
+            <p>Ajouter un élément :</p>
+            <img src="images/exemple25.png" alt="error" class="img13">
+            <p>Supprimer un élément :</p>
+            <img src="images/exemple26.png" alt="error" class="img14">
+
+        </article>
+
+        <article class="arc3 article1 article2">
+            <h2>Réagir aux événements</h2>
+            <p>Les événements sont des actions de l’utilisateur comme des clics, des déplacements de souris, 
+                ou des frappes de touches. JavaScript permet de réagir à ces événements pour déclencher des actions.</p>
+            <h2>Types d’événements courants :</h2>
+            <p>click : se déclenche quand on clique sur un élément.</p>
+            <p>mouseover : se déclenche quand la souris passe au-dessus d’un élément.</p>
+            <p>keypress : se déclenche quand une touche est enfoncée.</p>
+            <p>Supposons qu’on ait un bouton HTML et qu’on veuille afficher un message quand il est cliqué.</p>
+            <img src="images/exemple27.png" alt="error" class="img15">
+            <img src="images/exemple28.png" alt="error" class="img16">
+        </article>
+        <div id="nombre-affiche"></div>
+
+        <article class="article1 article2">
+            <h2>Fonctionnalités avancées de JavaScript</h2>
+            <p>JavaScript inclut des outils puissants qui permettent d’aller encore plus loin.</p>
+            <h2>Les objets</h2>
+            <p>Les objets sont des structures qui permettent de stocker plusieurs valeurs regroupées. Ils sont très utiles pour organiser des données plus complexes.</p>
+            <img src="images/exemple29.png" alt="error" class="img17">
+            <h2>Les tableaux</h2>
+            <p>Les tableaux (ou array en JavaScript) sont des listes qui permettent de stocker plusieurs valeurs dans une seule variable.</p>
+            <img src="images/exemple30.png" alt="error" class="img18">
+            <h2>Les API et les requêtes AJAX</h2>
+            <p>Avec AJAX (Asynchronous JavaScript and XML), on peut charger des données depuis un serveur sans recharger la page. Cela rend l’expérience utilisateur plus fluide.</p>
+            <p>Exemple (en utilisant fetch pour une requête réseau) :</p>
+            <img src="images/exemple31.png" alt="error" class="img19">
+            <h2>En résumé :</h2>
+            <p>JavaScript est ce qui rend une page interactive, en permettant de réagir aux actions des utilisateurs et de manipuler dynamiquement le contenu HTML. En associant JavaScript 
+                avec HTML (pour structurer le contenu) et CSS (pour le style), tu peux créer des sites web complets et réactifs.</p>
+
+
+        </article>
+        
+
+
+
+
+    </main>
+
+
+
+    
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        <div class="logfoot">
+            <p class="face"><a target="_blank" href="https://www.facebook.com/tom.dragnir.5/"><img src="images/facebook-circle-logo-24.png" alt="facebook"></a></p>
+            <p class="insta"><img src="images/instagram-logo-24.png" alt="instagram"></p>
+            <p class="twitter"><img src="images/twitter-logo-24.png" alt="twitter"></p>
+        </div>
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

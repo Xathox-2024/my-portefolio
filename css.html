@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="icon" type="image/png" href="ico.css.png" />
+    </head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">Mon Portfolio</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#propos">À propos</a></li>
+            <li><a href="manga.html">Mes Mangas</a></li>
+            <li><a href="index.html#pok">Compétences</a></li>
+            <li><a href="index.html#contact">Contact</a></li> 
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <article class="article3">
+            <h2>CSS est le langage que nous utilisons pour coiffer un document HTML</h2>
+        </article>
+
+        <article class="article5 article1 article2">
+            <h2>Qu'est-ce que le CSS?</h2>
+            <p>CSS est l'acronyme de <span style="color: red;">Cascading Style Sheets</span> il décrit comment les éléments HTML doivent être affichés à l'écran, papier, ou dans d'autres médias 
+               il économise beaucoup de travail. Il peut contrôler la configuration de plusieurs pages Web toutes en une seule fois
+            </p>
+        </article>
+
+        <article class="article1 article2">
+            <h2>Pourquoi utiliser le CSS?</h2>
+            <p>CSS est utilisé pour définir des styles pour vos pages web, y compris la conception, la mise en page et les variations d'affichage pour 
+                différents dispositifs et tailles d'écran.</p>
+            <img src="images/exemple4.png" alt="ol" class="img1">
+        </article>
+
+        <article class="article6  article1 article2">
+            <h2>Le CSS a résolu un gros problème</h2>
+            <p>HTML n'était JAMAIS destiné à contenir des balises pour formater une page web Le langage HTML était créé pour décrire le contenu d'une page web
+                Lorsque des balises comme <span style="color: red;">&lsaquo;font&rsaquo;</span> (L'élément HTML <span style="color: red;">&lsaquo;font&rsaquo;</span> définit la taille, la couleur et la police de son contenu.) et des attributs de couleur 
+                ont été ajoutés au HTML 3.2 spécification, il a déclenché un cauchemar pour les 
+                développeurs web. Développement de grands sites web, où des polices et des informations de couleur ont été ajoutées à chacun page, 
+                est devenue un processus long et coûteux. Pour résoudre ce problème, le World Wide Web Consortium (W3C) a créé CSS. 
+                Le CSS utilise une syntaxe de sélecteurs et de déclarations pour cibler des éléments HTML et définir leur style.
+            </p>
+            <h2>Exemple de syntaxe CSS</h2>
+            <img src="images/exemple5.png" alt="css" class="img2">
+            <p>Sélecteur : Il identifie l'élément HTML à styliser (comme <span style="color: red;">h1</span>, <span style="color: red;">p</span>, 
+                <span style="color: red;">.classe</span>, <span style="color: red;">#id</span>, etc.).</p>
+            <p>Propriété : Elle spécifie ce qui va être modifié (par exemple, <span style="color: red;">color</span>, 
+                <span style="color: red;">font-size</span>, <span style="color: red;">margin).</span></p>
+            <p>Valeur : La valeur est le style appliqué à la propriété (par exemple, <span style="color: red;">red</span> pour <span style="color: red;">color</span>, 
+                <span style="color: red;">16px</span> pour <span style="color: red;">font-size</span>).</p>
+            <h2>Exemple pour changer la couleur du texte des paragraphes</h2>
+            <img src="images/exemple6.png" alt="p" class="img3">
+        </article>
+
+        <article class="article1 article2">
+            <h2>Les propriétés de base du CSS</h2>
+            <p>Il existe des centaines de propriétés CSS, mais voici quelques-unes des plus courantes</p>
+            <h2>Couleurs et arrière-plan :</h2>
+            <p><span style="color: red;">color</span> : Modifie la couleur du texte, <span style="color: red;">background-color</span> : Définit la couleur de fond, 
+                <span style="color: red;">background-image</span> : Applique une image d’arrière-plan.</p>
+            <h2>Mise en forme du texte :</h2>
+            <p><span style="color: red;">font-family</span> : Définit la police de caractère, <span style="color: red;">font-size</span> : Taille de la police, 
+                <span style="color: red;">text-align</span> : Alignement du texte (par exemple, <span style="color: red;">center</span>, 
+                <span style="color: red;">left</span>, <span style="color: red;">right</span>).</p>
+            <h2>Mise en page et dimensionnement :</h2>
+            <p><span style="color: red;">margin</span> : Espace autour d’un élément, <span style="color: red;">padding</span> : Espace intérieur d’un élément, 
+                <span style="color: red;">width et height</span> : Largeur et hauteur d’un élément.</p>
+            <h2>Affichage et positionnement :</h2>
+            <p><span style="color: red;">display</span> : Contrôle le modèle de boîte d’un élément (par exemple, <span style="color: red;">block</span>, 
+                <span style="color: red;">inline</span>, <span style="color: red;">flex</span>).</p>
+            <p><span style="color: red;">position</span> : Détermine le type de positionnement (<span style="color: red;">static</span>, 
+                <span style="color: red;">relative</span></span>, <span style="color: red;">absolute</span>, 
+                <span style="color: red;">fixed</span>, <span style="color: red;">sticky</span>).</p>
+            <p><span style="color: red;">float</span> : Permet de faire flotter les éléments à gauche ou à droite (moins utilisé aujourd’hui, 
+                remplacé souvent par <span style="color: red;">flex</span> et <span style="color: red;">grid</span>).</p>
+        </article>
+
+        <article class="article3">
+            <h2>Les différents types de sélecteurs CSS</h2>
+            <p>Les sélecteurs permettent de cibler précisément des éléments spécifiques dans le HTML</p>
+            <p><span style="color: red;">Sélecteurs de type</span> : Ciblent les éléments par leur nom (<span style="color: red;">p</span>, 
+                <span style="color: red;">h1</span>, <span style="color: red;">div</span>, etc.).</p>
+            <p><span style="color: red;">Sélecteurs de classe</span> : Ciblent les éléments portant une classe (par exemple, <span style="color: red;">.classe</span> 
+                pour <span style="color: red;">&lsaquo;div class="classe"&rsaquo;</span>).</p>
+            <p><span style="color: red;">Sélecteurs d'identifiant</span> : Ciblent les éléments portant un <span style="color: red;">ID</span> 
+                (par exemple, <span style="color: red;">#id</span> pour <span style="color: red;">&lsaquo;div id="id"&rsaquo;</span>).</p>
+            <p><span style="color: red;">Sélecteurs d'attributs</span> : Ciblent des éléments ayant un attribut spécifique (<span style="color: red;">input[type="text"]</span>).</p>
+            <p><span style="color: red;">Sélecteurs de pseudo-classes et pseudo-éléments</span> : Ciblent des états spéciaux ou des parties spécifiques d’un élément 
+                (<span style="color: red;">:hover</span>, etc.).</p>
+        </article>
+
+        
+
+        <article class="article4 article1 article2">
+            <h2>Les modèles de mise en page avancés : Flexbox et Grid</h2>
+            <p><span style="color: red;">Flexbox</span> : Un modèle de mise en page unidimensionnel qui permis de placer des éléments en ligne ou en colonne et de les aligneurs 
+                et de flexibilité avec. Idéal pour des mises en page simples comme des barres de navigation, des galeries, etc.</p>
+            <img src="images/exemple7.png" alt="p" class="img4">
+            <p><span style="color: red;">CSS Grid</span> : Un modèle de mise en page bidimensionnel qui permis de créer des grilons complexes. Il est pour adapté des mises en page plus élaborées.</p>
+            <img src="images/exemple8.png" alt="p" class="img5">
+            <h2>La cascade et l'héritage en CSS</h2>
+            <p>Le CSS (Cascading Style Sheets) est un langage en cascade, ce qui signifie que les styles sont appliqués en fonction de plusieurs 
+                niveaux de priorité. Cette cascade détermine comment les styles sont calculés quand il y a plusieurs règles qui pourraient s’appliquer à un même élément.</p>
+            <h2>Cascad</h2>
+            <p><span style="color: red;">La cascade fonctionne selon un ordre de priorité spécifique</span> :</p>
+            <p><span style="color: red;">Styles par défaut du navigateur</span> : Le navigateur applique des styles de base à chaque page.</p>
+            <p><span style="color: red;">Éléoptable Styles</span> : Ceux-ci sont ajoutés par l’utilisateur (certains navigateurs permettent de définir des styles spécifiques).</p>
+            <p><span style="color: red;">Styles externes</span> : Ce sont les règles CSS définies dans une feuille de style externe, généralement via une balise &lsaquo;link&rsaquo; dans le HTML.</p>
+            <p><span style="color: red;">Styles en ligne</span> : Ils sont ajoutés directement dans l’élément HTML, avec l’attribut style="" (par exemple, &lsaquo;p style="color: blue;"&rsaquo;).</p>
+            <p><span style="color: red;">- importantes</span> : Une règle avec !important a la priorité absolue, même sur les autres niveaux.</p>
+            <h2>Héritage</h2>
+            <p>L'héritage est la manière dont certaines propriétés CSS se transmettent automatiquement des éléments parents à leurs éléments enfants. Certaines propriétés, 
+                comme color (couleur du texte)</span> et <span style="color: red;">font-family (police de caractères)</span>, 
+                se propagent automatiquement, tandis que d’autres, comme <span style="color: red;">margin</span> ou <span style="color: red;">padding</span>, ne sont pas héritées.</p>
+                <img src="images/exemple9.png" alt="p" class="img6">
+            <p>Tous les textes d’éléments enfants de <span style="color: red;">.article</span> auront la couleur bleue, car color est une propriété héritée.</p>
+            <p>La propriété <span style="color: red;">font-weight: bold;</span> de <span style="color: red;">h2</span> ne sera pas héritée par les autres éléments enfants de 
+                <span style="color: red;">.article</span> car elle ne se propage pas automatiquement.</p>
+            <h2>Utilisation pratique de la cascade et de l'héritage</h2>
+            <p>Hiérarchise les styles en plaçant les règles les plus générales en premier et en ajoutant des sélecteurs plus spécifiques si nécessaire.</p>
+            <p>Limiteur l'utilisation de !important, car il rend le code plus difficile à lire et à maintenir.</p>
+            <p>Utiliser des classes pour cibler des éléments précis, et tirer parti de l'héritage pour appliquer des styles globaux (comme des polices ou des couleurs de texte) 
+                à un ensemble d’éléments.</p>
+            <p>La cascade et l’héritage permettent de structurer et d’organiser efficacement les styles d’une page tout en donnant un contrôle détaillé sur l’apparence des éléments HTML.</p>
+            <img src="images/logocss.png" alt="p" class="img10">
+            
+        </article>
+
+        <article class="article1 article2">
+            <h2>Outils avancés : Responsivité et Media Queries</h2>
+            <p>Les médias requêtes pour la création de la page adaptatives (récepteurs), changeant le style en fonction de la taille de l’écran.</p>
+            <img src="images/exemple10.png" alt="p" class="img7">
+            <p>La Responsabilités permet aux sites web de s’adapter à différentes tailles d’écran (comme les mobiles, tablettes, et ordinateurs de bureau). 
+                En CSS, cela se fait principalement à l'aide des Demandes de renseignements sur les médias, qui permettent d'appliquer des styles spécifiques 
+                en fonction des caractéristiques de l'appareil ou de la fenêtre d'affichage, telles que la largeur de l’écran.</p>
+            <h2>Qu’est-ce qu’une Media Query ?</h2>
+            <p>Une Demande d'information des médias est une condition qui vérifie certains critères, comme la taille d’écran. Si la condition est remplie, les styles à l'intérieur de 
+                la Media Query s'appliquent. Elles sont particulièrement utiles pour créer des mises en page adaptatives, où les éléments s’ajustent selon la taille d’écran.</p>
+            <h2>Exemple de Media Query de base</h2>
+            <p>un exemple de Demande d'information des médias qui modifie la disposition d’un site sur les petits écrans (comme les smartphones) :</p>
+            <img src="images/exemple11.png" alt="p" class="img8">
+            <h2>Dans cet exemple :</h2>
+            <p>Les styles pour les définis <span style="color: red;">.container</span> s’appliquent par défaut (les éléments sont alignés en ligne).</p>
+            <p>Quand l’écran est de 768 pixels de large ou moins, la Media Query change l’alignement en colonne.</p>
+            <h2>Utiliser des Media Queries pour différents points de rupture</h2>
+            <p>Les points de rupture sont des largeurs d’écran spécifiques où la mise en page change pour s’adapter aux tailles d'écran standard. Par exemple :</p>
+            <p><span style="color: red;">@media (max-width: 1200px)</span> pour les grands écrans (comme les ordinateurs de bureau).</p>
+            <p><span style="color: red;">@media (max-width: 992px)</span> pour les tablettes.</p>
+            <p><span style="color: red;">@media (max-width: 768px)</span> pour les mobiles en mode paysage.</p>
+            <p><span style="color: red;">@media (max-width: 576px)</span> pour les petits appareils mobiles.</p>
+            <img src="images/exemple12.png" alt="p" class="img9">
+            <p>Ici, la taille de la police diminue progressivement pour s’adapter à des écrans plus petits, améliorant ainsi la lisibilité sur les appareils mobiles.</p>
+            <h2>Conseils pour utiliser les Media Queries</h2>
+            <p><span style="color: red;">Mobile d'abord</span> : Appliquez d'abord les styles pour les petits écrans, puis ajoutez des Media Queries pour les écrans plus grands.</p>
+            <p><span style="color: red;">Témoins d'essais fréquents</span> : Testez les Media Queries sur différents appareils ou en redimensionnant votre navigateur pour vous assurer que le site est agréable à utiliser.</p>
+            <p><span style="color: red;">Utilisation de valeurs apparentées</span> : Utilisez des unités de taille relative comme %, em, ou rem pour que le contenu s’ajuste plus facilement.</p>
+            <h2>En résumé</h2>
+            <p>Les Media Queries sont des outils puissants pour faire en sorte que votre site soit responsive, c'est-à-dire qu'il s'adapte de manière fluide à toutes les tailles d’écran. 
+                Grâce aux Media Queries, vous pouvez contrôler chaque aspect du design et offrir aux utilisateurs une expérience optimale, peu importe l’appareil.</p>
+        </article>
+
+        
+
+    </main>
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        <div class="logfoot">
+            <p class="face"><a target="_blank" href="https://www.facebook.com/tom.dragnir.5/"><img src="images/facebook-circle-logo-24.png" alt="facebook"></a></p>
+            <p class="insta"><img src="images/instagram-logo-24.png" alt="instagram"></p>
+            <p class="twitter"><img src="images/twitter-logo-24.png" alt="twitter"></p>
+        </div>
+    </footer>
+</body>
+</html>

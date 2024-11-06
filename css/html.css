@@ -1,0 +1,123 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 2rem 2rem; 
+    background-color: #000000; 
+    color: #ff8c00; 
+    font-weight: bold; 
+    width: 100%; 
+    z-index: 1; 
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    gap: 2em; 
+}
+
+.navbar a {
+    color: #ff8c00; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.navbar a:hover {
+    color: #00ef1474; 
+}
+
+main{
+    display: flex; 
+    flex-wrap: wrap; 
+    max-width: 90em; 
+    margin: auto; 
+}
+
+article{
+    flex: calc(100% - 30px); 
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #dfdfdf; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.article3, .article4{
+    flex: calc(50% - 30px); 
+}
+
+.article1, .article2, .article8, .article9{
+    flex: calc(100% - 30px); 
+}
+
+.article5{
+    flex: calc(50% - 20em); 
+    max-width: 50em;
+    margin-left: 20em;
+}
+
+.article5 img{
+    max-width: 80%;
+    margin-left: 5em;
+}
+
+.article6, .article7{
+    flex: calc(45%); 
+}
+
+.img1{
+    margin-left: 27em;
+    position: relative;
+}
+
+.img2{
+    margin-left: 35em;
+}
+
+.img3{
+    margin-left: 36em;
+}
+
+article h2{
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article h2:hover{
+    color: rgb(0, 81, 255);
+}
+
+article p{
+    text-align: center;  
+}
+
+footer {
+    text-align: center; 
+    padding: 1rem 0; 
+    background-color: #333; 
+    color: #fff; 
+}
+
+.face, .insta, .twitter {
+    filter: invert(1); 
+}
+
+.logfoot{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-right: 15px;
+}

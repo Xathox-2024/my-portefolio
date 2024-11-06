@@ -1,0 +1,218 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 2em 2em; 
+    background-color: #000000; 
+    color: #ff8c00; 
+    font-weight: bold; 
+    width: 100%; 
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    gap: 2em; 
+}
+
+.navbar a {
+    color: #ff8c00; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.navbar a:hover {
+    color: #00ef1474; 
+}
+
+.hero {
+    height: 52em; 
+    background: url('../deku.jpg') center/cover; 
+    color: #ffffff; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.hero h1 {
+    font-size: 3rem; 
+    animation: fadeInDown 2s; 
+    background-color: #000000; 
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem; 
+    margin-top: 1rem; 
+    animation: fadeInUp 2s; 
+    background-color: #000000; 
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.section {
+    padding: 3rem 3rem; 
+    text-align: center; 
+}
+
+section h2{
+    margin-bottom: 10px;
+}
+
+section p{
+    margin-bottom: 20px;
+}
+
+input{
+    color: rgb(0, 0, 0);
+}
+
+.pok-list {
+    display: flex; 
+    gap: 1em; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.pok {
+    background: #ffd700; 
+    padding: 2em; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.skill:hover {
+    transform: scale(1.2); 
+}
+
+.notes-list {
+    display: flex; 
+    gap: 1rem; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.but {
+    background: #00ffbf; 
+    padding: 2rem; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.but:hover {
+    transform: scale(1.2); 
+}
+
+.contact form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.contact input, .contact textarea {
+    padding: 0.8rem; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+
+button {
+    background-color: #333; 
+    color: #ffd700; 
+    padding: 0.8rem; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.contact button:hover {
+    background-color: #444; 
+}
+
+footer {
+    text-align: center; 
+    padding: 1rem 0; 
+    background-color: #333; 
+    color: #fff; 
+}
+
+.face, .insta, .twitter {
+    filter: invert(1); 
+}
+
+.logfoot{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+main{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 90em; 
+    margin: auto; 
+}
+
+.article1{
+    flex: 1 1 calc(100% - 30px); 
+}
+
+article{
+    flex: 1 1 calc(33% - 30px); 
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #dfdfdf; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+article h2{
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+article h2:hover{
+    color: red;
+}
+
+article p{
+    text-align: left;  
+}
+
+article ul li {
+    text-align: left;
+    list-style-type: none; 
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
